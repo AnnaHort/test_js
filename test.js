@@ -107,3 +107,80 @@
 //    console.log(calculateTotal(18));
 //    console.log(calculateTotal(24));
 //    console.log(calculateTotal());
+
+
+
+// const string = "javascript";
+
+// for (const character of string) {
+//   console.log(character);
+// }
+
+
+// const name = "Mango Apple";
+// console.log(name.split("")); // ["M", "a", "n", "g", "o"]
+
+// const message = "JavaScript - це цікаво";
+// console.log(message.split(" ")); // ["JavaScript", "-", "це", "цікаво"]
+
+// const words = ["JavaScript", "це", "цікаво"];
+// console.log(words.join("")); // "JavaScriptцецікаво"
+// console.log(words.join(" ")); // "JavaScript це цікаво"
+// console.log(words.join(" б ")); // "JavaScript-це-цікаво"
+
+
+// Виносимо варіанти в масив
+// const redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+// const fruit = "cherry";
+// // Перевіряємо присутність елемента
+// const hasFruit = redFruits.includes(fruit);
+
+// if (hasFruit) {
+//   console.log(`${fruit} is a red fruit!`);
+// }
+
+
+
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+// for (let i = min; i < max; i += 1)
+//  {
+//     numbers.push(i);
+//   }
+//   return numbers;
+// }
+  
+//   console.log(createArrayOfNumbers(1, 3));
+//   console.log(createArrayOfNumbers(14, 17));
+//   console.log(createArrayOfNumbers(29, 34));
+//   console.log(createArrayOfNumbers());
+
+
+
+
+// Напиши функцію filterArray(numbers, value), яка приймає масив чисел (параметр numbers) і повертає новий масив, в якому будуть тільки ті елементи масиву numbers, які більші за значення параметра value (число).
+function filterArray(numbers, value) {
+    let numMasive = [];
+
+for(const numb of numbers) {
+    if (numb > value) {
+        numMasive.push(numb)
+    }
+}
+
+ return numMasive;
+ }
+
+ console.log(filterArray([1, 2, 3, 4, 5], 3));
+ console.log(filterArray([1, 2, 3, 4, 5], 4));
+ console.log(filterArray([1, 2, 3, 4, 5], 5));
+ console.log(filterArray([12, 24, 8, 41, 76], 38));
+ console.log(filterArray([12, 24, 8, 41, 76], 20));
+ console.log(filterArray());
+
+
+// const clients = ["Mango", "Ajax", "Poly"];
+
+// for (const client of clients) {
+//   console.log(client);
+// }
