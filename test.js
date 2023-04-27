@@ -182,3 +182,47 @@
 // for (const client of clients) {
 //   console.log(client);
 // }
+
+
+// функція приймає рядок з назвою фрукта - fruit 
+// та перевіряє чи присутній такий фрукт в масиві fruits
+// 1. Якщо фрукт присутній в масиві то функція повертає true
+// 2. В іншому випадку повертає false
+
+// function checkFruit(fruit) {
+//     const fruits = ["apple", "plum", "pear", "orange"];
+//     returnfruits.includes(fruit); 
+//   }
+  
+//   console.log(checkFruit("plum"));
+//   console.log(checkFruit("mandarin"));
+//   console.log(checkFruit("pear"));
+//   console.log(checkFruit("Pear"));
+//   console.log(checkFruit("apple"));
+//   console.log(checkFruit());
+
+
+// Напиши функцію getCommonElements(array1, array2), яка отримує два масиви довільної довжини в параметри array1 і array2, і повертає новий масив, що складається з тих елементів, які присутні в обох вихідних масивах.
+// function getCommonElements(array1, array2) {
+//     let massive = [];
+//     for (let i = 0; i < array1.length; i += 1) {
+//         if (array2.includes(array1[i])) {
+//             massive.push(array1[i]);
+//         }
+//     }
+//     return massive;
+// } 
+
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
+// console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
+
+
+// function includes(array, value) {
+
+//     for (const arr of array) {
+//       console.log(arr);
+//     }
+// }
